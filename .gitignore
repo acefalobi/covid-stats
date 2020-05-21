@@ -12,3 +12,4 @@
 /captures
 .externalNativeBuild
 .cxx
+**/google_api_key.xml
