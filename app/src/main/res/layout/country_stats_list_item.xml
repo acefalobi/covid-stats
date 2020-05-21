@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardView.Default"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingStart="@dimen/frame_padding_horizontal"
+        android:paddingTop="@dimen/list_item_padding_vertical"
+        android:paddingEnd="@dimen/frame_padding_horizontal"
+        android:paddingBottom="@dimen/list_item_padding_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_flag"
+            android:layout_width="@dimen/card_icon_size"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_flag"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/text_country_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Spain"
+                android:textAppearance="@style/TextAppearance.Body" />
+
+            <TextView
+                android:id="@+id/text_total_cases"
+                tools:text="1,315,718"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Large.Highlight"
+                android:textColor="@color/color_accent" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

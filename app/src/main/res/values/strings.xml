@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">COVID Stats</string>
+
+    <!-- Titles -->
+    <string name="title_total_stats">Total Stats</string>
+    <string name="title_region_stats">Region Stats</string>
+
+    <!-- Errors -->
+    <string name="error_fetching_data">There was an error fetching data.</string>
+
+    <!-- Labels -->
+    <string name="label_total_cases">Total Confirmed Cases</string>
+    <string name="label_infected">Currently Infected</string>
+    <string name="label_recovered">Recovered</string>
+    <string name="label_deaths">Deaths</string>
+    <string name="label_last_updated">Last Updated</string>
+
+    <!-- Hints -->
+    <string name="hint_search_country">Search by country</string>
+
+    <!-- Statuses -->
+    <string name="status_loading_more">Loading more…</string>
+    <string name="status_fetching_total_stats">Fetching Total Stats</string>
+    <string name="status_fetching_region_stats">Fetching Region Stats</string>
+    <string name="status_fetching_region_stats_detailed">Fetching Region Stats: %d of %d</string>
+    <string name="title_covid_map">COVID Map</string>
+    <string name="action_share">Share</string>
+</resources>

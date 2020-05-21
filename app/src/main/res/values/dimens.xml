@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="frame_padding_horizontal">16dp</dimen>
+    <dimen name="frame_padding_vertical">16dp</dimen>
+
+    <dimen name="list_item_padding_vertical">10dp</dimen>
+    <dimen name="list_item_padding_horizontal">16dp</dimen>
+
+
+    <dimen name="list_item_spacing">24dp</dimen>
+    <dimen name="list_item_spacing_small">4dp</dimen>
+
+    <dimen name="loader_padding">48dp</dimen>
+
+    <dimen name="widget_drawable_padding">10dp</dimen>
+    <dimen name="widget_padding">12dp</dimen>
+
+    <dimen name="floating_edit_text_margin">16dp</dimen>
+    <dimen name="floating_edit_text_radius">8dp</dimen>
+    <dimen name="floating_edit_text_title_size">20sp</dimen>
+
+    <dimen name="floating_edit_text_space">76dp</dimen>
+
+    <dimen name="card_elevation_medium">4dp</dimen>
+    <dimen name="card_radius_default">12dp</dimen>
+
+    <dimen name="card_icon_size">48dp</dimen>
+
+    <dimen name="pie_chart_size">200dp</dimen>
+    <dimen name="pie_chart_size_small">150dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="mini_fab_margin">8dp</dimen>
+
+</resources>

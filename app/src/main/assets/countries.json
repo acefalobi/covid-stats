@@ -1,0 +1,1282 @@
+[
+  {
+    "code": "AF",
+    "lat": 33,
+    "long": 65
+  },
+  {
+    "code": "AL",
+    "lat": 41,
+    "long": 20
+  },
+  {
+    "code": "DZ",
+    "lat": 28,
+    "long": 3
+  },
+  {
+    "code": "AS",
+    "lat": -14.3333,
+    "long": -170
+  },
+  {
+    "code": "AD",
+    "lat": 42.5,
+    "long": 1.6
+  },
+  {
+    "code": "AO",
+    "lat": -12.5,
+    "long": 18.5
+  },
+  {
+    "code": "AI",
+    "lat": 18.25,
+    "long": -63.1667
+  },
+  {
+    "code": "AQ",
+    "lat": -90,
+    "long": 0
+  },
+  {
+    "code": "AG",
+    "lat": 17.05,
+    "long": -61.8
+  },
+  {
+    "code": "AR",
+    "lat": -34,
+    "long": -64
+  },
+  {
+    "code": "AM",
+    "lat": 40,
+    "long": 45
+  },
+  {
+    "code": "AW",
+    "lat": 12.5,
+    "long": -69.9667
+  },
+  {
+    "code": "AU",
+    "lat": -27,
+    "long": 133
+  },
+  {
+    "code": "AT",
+    "lat": 47.3333,
+    "long": 13.3333
+  },
+  {
+    "code": "AZ",
+    "lat": 40.5,
+    "long": 47.5
+  },
+  {
+    "code": "BS",
+    "lat": 24.25,
+    "long": -76
+  },
+  {
+    "code": "BH",
+    "lat": 26,
+    "long": 50.55
+  },
+  {
+    "code": "BD",
+    "lat": 24,
+    "long": 90
+  },
+  {
+    "code": "BB",
+    "lat": 13.1667,
+    "long": -59.5333
+  },
+  {
+    "code": "BY",
+    "lat": 53,
+    "long": 28
+  },
+  {
+    "code": "BE",
+    "lat": 50.8333,
+    "long": 4
+  },
+  {
+    "code": "BZ",
+    "lat": 17.25,
+    "long": -88.75
+  },
+  {
+    "code": "BJ",
+    "lat": 9.5,
+    "long": 2.25
+  },
+  {
+    "code": "BM",
+    "lat": 32.3333,
+    "long": -64.75
+  },
+  {
+    "code": "BT",
+    "lat": 27.5,
+    "long": 90.5
+  },
+  {
+    "code": "BO",
+    "lat": -17,
+    "long": -65
+  },
+  {
+    "code": "BO",
+    "lat": -17,
+    "long": -65
+  },
+  {
+    "code": "BA",
+    "lat": 44,
+    "long": 18
+  },
+  {
+    "code": "BW",
+    "lat": -22,
+    "long": 24
+  },
+  {
+    "code": "BV",
+    "lat": -54.4333,
+    "long": 3.4
+  },
+  {
+    "code": "BR",
+    "lat": -10,
+    "long": -55
+  },
+  {
+    "code": "IO",
+    "lat": -6,
+    "long": 71.5
+  },
+  {
+    "code": "BN",
+    "lat": 4.5,
+    "long": 114.6667
+  },
+  {
+    "code": "BN",
+    "lat": 4.5,
+    "long": 114.6667
+  },
+  {
+    "code": "BG",
+    "lat": 43,
+    "long": 25
+  },
+  {
+    "code": "BF",
+    "lat": 13,
+    "long": -2
+  },
+  {
+    "code": "BI",
+    "lat": -3.5,
+    "long": 30
+  },
+  {
+    "code": "KH",
+    "lat": 13,
+    "long": 105
+  },
+  {
+    "code": "CM",
+    "lat": 6,
+    "long": 12
+  },
+  {
+    "code": "CA",
+    "lat": 60,
+    "long": -95
+  },
+  {
+    "code": "CV",
+    "lat": 16,
+    "long": -24
+  },
+  {
+    "code": "KY",
+    "lat": 19.5,
+    "long": -80.5
+  },
+  {
+    "code": "CF",
+    "lat": 7,
+    "long": 21
+  },
+  {
+    "code": "TD",
+    "lat": 15,
+    "long": 19
+  },
+  {
+    "code": "CL",
+    "lat": -30,
+    "long": -71
+  },
+  {
+    "code": "CN",
+    "lat": 35,
+    "long": 105
+  },
+  {
+    "code": "CX",
+    "lat": -10.5,
+    "long": 105.6667
+  },
+  {
+    "code": "CC",
+    "lat": -12.5,
+    "long": 96.8333
+  },
+  {
+    "code": "CO",
+    "lat": 4,
+    "long": -72
+  },
+  {
+    "code": "KM",
+    "lat": -12.1667,
+    "long": 44.25
+  },
+  {
+    "code": "CG",
+    "lat": -1,
+    "long": 15
+  },
+  {
+    "code": "CD",
+    "lat": 0,
+    "long": 25
+  },
+  {
+    "code": "CK",
+    "lat": -21.2333,
+    "long": -159.7667
+  },
+  {
+    "code": "CR",
+    "lat": 10,
+    "long": -84
+  },
+  {
+    "code": "CI",
+    "lat": 8,
+    "long": -5
+  },
+  {
+    "code": "CI",
+    "lat": 8,
+    "long": -5
+  },
+  {
+    "code": "HR",
+    "lat": 45.1667,
+    "long": 15.5
+  },
+  {
+    "code": "CU",
+    "lat": 21.5,
+    "long": -80
+  },
+  {
+    "code": "CY",
+    "lat": 35,
+    "long": 33
+  },
+  {
+    "code": "CZ",
+    "lat": 49.75,
+    "long": 15.5
+  },
+  {
+    "code": "DK",
+    "lat": 56,
+    "long": 10
+  },
+  {
+    "code": "DJ",
+    "lat": 11.5,
+    "long": 43
+  },
+  {
+    "code": "DM",
+    "lat": 15.4167,
+    "long": -61.3333
+  },
+  {
+    "code": "DO",
+    "lat": 19,
+    "long": -70.6667
+  },
+  {
+    "code": "EC",
+    "lat": -2,
+    "long": -77.5
+  },
+  {
+    "code": "EG",
+    "lat": 27,
+    "long": 30
+  },
+  {
+    "code": "SV",
+    "lat": 13.8333,
+    "long": -88.9167
+  },
+  {
+    "code": "GQ",
+    "lat": 2,
+    "long": 10
+  },
+  {
+    "code": "ER",
+    "lat": 15,
+    "long": 39
+  },
+  {
+    "code": "EE",
+    "lat": 59,
+    "long": 26
+  },
+  {
+    "code": "ET",
+    "lat": 8,
+    "long": 38
+  },
+  {
+    "code": "FK",
+    "lat": -51.75,
+    "long": -59
+  },
+  {
+    "code": "FO",
+    "lat": 62,
+    "long": -7
+  },
+  {
+    "code": "FJ",
+    "lat": -18,
+    "long": 175
+  },
+  {
+    "code": "FI",
+    "lat": 64,
+    "long": 26
+  },
+  {
+    "code": "FR",
+    "lat": 46,
+    "long": 2
+  },
+  {
+    "code": "GF",
+    "lat": 4,
+    "long": -53
+  },
+  {
+    "code": "PF",
+    "lat": -15,
+    "long": -140
+  },
+  {
+    "code": "TF",
+    "lat": -43,
+    "long": 67
+  },
+  {
+    "code": "GA",
+    "lat": -1,
+    "long": 11.75
+  },
+  {
+    "code": "GM",
+    "lat": 13.4667,
+    "long": -16.5667
+  },
+  {
+    "code": "GE",
+    "lat": 42,
+    "long": 43.5
+  },
+  {
+    "code": "DE",
+    "lat": 51,
+    "long": 9
+  },
+  {
+    "code": "GH",
+    "lat": 8,
+    "long": -2
+  },
+  {
+    "code": "GI",
+    "lat": 36.1833,
+    "long": -5.3667
+  },
+  {
+    "code": "GR",
+    "lat": 39,
+    "long": 22
+  },
+  {
+    "code": "GL",
+    "lat": 72,
+    "long": -40
+  },
+  {
+    "code": "GD",
+    "lat": 12.1167,
+    "long": -61.6667
+  },
+  {
+    "code": "GP",
+    "lat": 16.25,
+    "long": -61.5833
+  },
+  {
+    "code": "GU",
+    "lat": 13.4667,
+    "long": 144.7833
+  },
+  {
+    "code": "GT",
+    "lat": 15.5,
+    "long": -90.25
+  },
+  {
+    "code": "GG",
+    "lat": 49.5,
+    "long": -2.56
+  },
+  {
+    "code": "GN",
+    "lat": 11,
+    "long": -10
+  },
+  {
+    "code": "GW",
+    "lat": 12,
+    "long": -15
+  },
+  {
+    "code": "GY",
+    "lat": 5,
+    "long": -59
+  },
+  {
+    "code": "HT",
+    "lat": 19,
+    "long": -72.4167
+  },
+  {
+    "code": "HM",
+    "lat": -53.1,
+    "long": 72.5167
+  },
+  {
+    "code": "VA",
+    "lat": 41.9,
+    "long": 12.45
+  },
+  {
+    "code": "HN",
+    "lat": 15,
+    "long": -86.5
+  },
+  {
+    "code": "HK",
+    "lat": 22.25,
+    "long": 114.1667
+  },
+  {
+    "code": "HU",
+    "lat": 47,
+    "long": 20
+  },
+  {
+    "code": "IS",
+    "lat": 65,
+    "long": -18
+  },
+  {
+    "code": "IN",
+    "lat": 20,
+    "long": 77
+  },
+  {
+    "code": "ID",
+    "lat": -5,
+    "long": 120
+  },
+  {
+    "code": "IR",
+    "lat": 32,
+    "long": 53
+  },
+  {
+    "code": "IQ",
+    "lat": 33,
+    "long": 44
+  },
+  {
+    "code": "IE",
+    "lat": 53,
+    "long": -8
+  },
+  {
+    "code": "IM",
+    "lat": 54.23,
+    "long": -4.55
+  },
+  {
+    "code": "IL",
+    "lat": 31.5,
+    "long": 34.75
+  },
+  {
+    "code": "IT",
+    "lat": 42.8333,
+    "long": 12.8333
+  },
+  {
+    "code": "JM",
+    "lat": 18.25,
+    "long": -77.5
+  },
+  {
+    "code": "JP",
+    "lat": 36,
+    "long": 138
+  },
+  {
+    "code": "JE",
+    "lat": 49.21,
+    "long": -2.13
+  },
+  {
+    "code": "JO",
+    "lat": 31,
+    "long": 36
+  },
+  {
+    "code": "KZ",
+    "lat": 48,
+    "long": 68
+  },
+  {
+    "code": "KE",
+    "lat": 1,
+    "long": 38
+  },
+  {
+    "code": "KI",
+    "lat": 1.4167,
+    "long": 173
+  },
+  {
+    "code": "KP",
+    "lat": 40,
+    "long": 127
+  },
+  {
+    "code": "KR",
+    "lat": 37,
+    "long": 127.5
+  },
+  {
+    "code": "KR",
+    "lat": 37,
+    "long": 127.5
+  },
+  {
+    "code": "KW",
+    "lat": 29.3375,
+    "long": 47.6581
+  },
+  {
+    "code": "KG",
+    "lat": 41,
+    "long": 75
+  },
+  {
+    "code": "LA",
+    "lat": 18,
+    "long": 105
+  },
+  {
+    "code": "LV",
+    "lat": 57,
+    "long": 25
+  },
+  {
+    "code": "LB",
+    "lat": 33.8333,
+    "long": 35.8333
+  },
+  {
+    "code": "LS",
+    "lat": -29.5,
+    "long": 28.5
+  },
+  {
+    "code": "LR",
+    "lat": 6.5,
+    "long": -9.5
+  },
+  {
+    "code": "LY",
+    "lat": 25,
+    "long": 17
+  },
+  {
+    "code": "LY",
+    "lat": 25,
+    "long": 17
+  },
+  {
+    "code": "LI",
+    "lat": 47.1667,
+    "long": 9.5333
+  },
+  {
+    "code": "LT",
+    "lat": 56,
+    "long": 24
+  },
+  {
+    "code": "LU",
+    "lat": 49.75,
+    "long": 6.1667
+  },
+  {
+    "code": "MO",
+    "lat": 22.1667,
+    "long": 113.55
+  },
+  {
+    "code": "MK",
+    "lat": 41.8333,
+    "long": 22
+  },
+  {
+    "code": "MG",
+    "lat": -20,
+    "long": 47
+  },
+  {
+    "code": "MW",
+    "lat": -13.5,
+    "long": 34
+  },
+  {
+    "code": "MY",
+    "lat": 2.5,
+    "long": 112.5
+  },
+  {
+    "code": "MV",
+    "lat": 3.25,
+    "long": 73
+  },
+  {
+    "code": "ML",
+    "lat": 17,
+    "long": -4
+  },
+  {
+    "code": "MT",
+    "lat": 35.8333,
+    "long": 14.5833
+  },
+  {
+    "code": "MH",
+    "lat": 9,
+    "long": 168
+  },
+  {
+    "code": "MQ",
+    "lat": 14.6667,
+    "long": -61
+  },
+  {
+    "code": "MR",
+    "lat": 20,
+    "long": -12
+  },
+  {
+    "code": "MU",
+    "lat": -20.2833,
+    "long": 57.55
+  },
+  {
+    "code": "YT",
+    "lat": -12.8333,
+    "long": 45.1667
+  },
+  {
+    "code": "MX",
+    "lat": 23,
+    "long": -102
+  },
+  {
+    "code": "FM",
+    "lat": 6.9167,
+    "long": 158.25
+  },
+  {
+    "code": "MD",
+    "lat": 47,
+    "long": 29
+  },
+  {
+    "code": "MC",
+    "lat": 43.7333,
+    "long": 7.4
+  },
+  {
+    "code": "MN",
+    "lat": 46,
+    "long": 105
+  },
+  {
+    "code": "ME",
+    "lat": 42,
+    "long": 19
+  },
+  {
+    "code": "MS",
+    "lat": 16.75,
+    "long": -62.2
+  },
+  {
+    "code": "MA",
+    "lat": 32,
+    "long": -5
+  },
+  {
+    "code": "MZ",
+    "lat": -18.25,
+    "long": 35
+  },
+  {
+    "code": "MM",
+    "lat": 22,
+    "long": 98
+  },
+  {
+    "code": "MM",
+    "lat": 22,
+    "long": 98
+  },
+  {
+    "code": "NA",
+    "lat": -22,
+    "long": 17
+  },
+  {
+    "code": "NR",
+    "lat": -0.5333,
+    "long": 166.9167
+  },
+  {
+    "code": "NP",
+    "lat": 28,
+    "long": 84
+  },
+  {
+    "code": "NL",
+    "lat": 52.5,
+    "long": 5.75
+  },
+  {
+    "code": "AN",
+    "lat": 12.25,
+    "long": -68.75
+  },
+  {
+    "code": "NC",
+    "lat": -21.5,
+    "long": 165.5
+  },
+  {
+    "code": "NZ",
+    "lat": -41,
+    "long": 174
+  },
+  {
+    "code": "NI",
+    "lat": 13,
+    "long": -85
+  },
+  {
+    "code": "NE",
+    "lat": 16,
+    "long": 8
+  },
+  {
+    "code": "NG",
+    "lat": 10,
+    "long": 8
+  },
+  {
+    "code": "NU",
+    "lat": -19.0333,
+    "long": -169.8667
+  },
+  {
+    "code": "NF",
+    "lat": -29.0333,
+    "long": 167.95
+  },
+  {
+    "code": "MP",
+    "lat": 15.2,
+    "long": 145.75
+  },
+  {
+    "code": "NO",
+    "lat": 62,
+    "long": 10
+  },
+  {
+    "code": "OM",
+    "lat": 21,
+    "long": 57
+  },
+  {
+    "code": "PK",
+    "lat": 30,
+    "long": 70
+  },
+  {
+    "code": "PW",
+    "lat": 7.5,
+    "long": 134.5
+  },
+  {
+    "code": "PS",
+    "lat": 32,
+    "long": 35.25
+  },
+  {
+    "code": "PA",
+    "lat": 9,
+    "long": -80
+  },
+  {
+    "code": "PG",
+    "lat": -6,
+    "long": 147
+  },
+  {
+    "code": "PY",
+    "lat": -23,
+    "long": -58
+  },
+  {
+    "code": "PE",
+    "lat": -10,
+    "long": -76
+  },
+  {
+    "code": "PH",
+    "lat": 13,
+    "long": 122
+  },
+  {
+    "code": "PN",
+    "lat": -24.7,
+    "long": -127.4
+  },
+  {
+    "code": "PL",
+    "lat": 52,
+    "long": 20
+  },
+  {
+    "code": "PT",
+    "lat": 39.5,
+    "long": -8
+  },
+  {
+    "code": "PR",
+    "lat": 18.25,
+    "long": -66.5
+  },
+  {
+    "code": "QA",
+    "lat": 25.5,
+    "long": 51.25
+  },
+  {
+    "code": "RE",
+    "lat": -21.1,
+    "long": 55.6
+  },
+  {
+    "code": "RO",
+    "lat": 46,
+    "long": 25
+  },
+  {
+    "code": "RU",
+    "lat": 60,
+    "long": 100
+  },
+  {
+    "code": "RU",
+    "lat": 60,
+    "long": 100
+  },
+  {
+    "code": "RW",
+    "lat": -2,
+    "long": 30
+  },
+  {
+    "code": "SH",
+    "lat": -15.9333,
+    "long": -5.7
+  },
+  {
+    "code": "KN",
+    "lat": 17.3333,
+    "long": -62.75
+  },
+  {
+    "code": "LC",
+    "lat": 13.8833,
+    "long": -61.1333
+  },
+  {
+    "code": "PM",
+    "lat": 46.8333,
+    "long": -56.3333
+  },
+  {
+    "code": "VC",
+    "lat": 13.25,
+    "long": -61.2
+  },
+  {
+    "code": "VC",
+    "lat": 13.25,
+    "long": -61.2
+  },
+  {
+    "code": "VC",
+    "lat": 13.25,
+    "long": -61.2
+  },
+  {
+    "code": "WS",
+    "lat": -13.5833,
+    "long": -172.3333
+  },
+  {
+    "code": "SM",
+    "lat": 43.7667,
+    "long": 12.4167
+  },
+  {
+    "code": "ST",
+    "lat": 1,
+    "long": 7
+  },
+  {
+    "code": "SA",
+    "lat": 25,
+    "long": 45
+  },
+  {
+    "code": "SN",
+    "lat": 14,
+    "long": -14
+  },
+  {
+    "code": "RS",
+    "lat": 44,
+    "long": 21
+  },
+  {
+    "code": "SC",
+    "lat": -4.5833,
+    "long": 55.6667
+  },
+  {
+    "code": "SL",
+    "lat": 8.5,
+    "long": -11.5
+  },
+  {
+    "code": "SG",
+    "lat": 1.3667,
+    "long": 103.8
+  },
+  {
+    "code": "SK",
+    "lat": 48.6667,
+    "long": 19.5
+  },
+  {
+    "code": "SI",
+    "lat": 46,
+    "long": 15
+  },
+  {
+    "code": "SB",
+    "lat": -8,
+    "long": 159
+  },
+  {
+    "code": "SO",
+    "lat": 10,
+    "long": 49
+  },
+  {
+    "code": "ZA",
+    "lat": -29,
+    "long": 24
+  },
+  {
+    "code": "GS",
+    "lat": -54.5,
+    "long": -37
+  },
+  {
+    "code": "SS",
+    "lat": 8,
+    "long": 30
+  },
+  {
+    "code": "ES",
+    "lat": 40,
+    "long": -4
+  },
+  {
+    "code": "LK",
+    "lat": 7,
+    "long": 81
+  },
+  {
+    "code": "SD",
+    "lat": 15,
+    "long": 30
+  },
+  {
+    "code": "SR",
+    "lat": 4,
+    "long": -56
+  },
+  {
+    "code": "SJ",
+    "lat": 78,
+    "long": 20
+  },
+  {
+    "code": "SZ",
+    "lat": -26.5,
+    "long": 31.5
+  },
+  {
+    "code": "SE",
+    "lat": 62,
+    "long": 15
+  },
+  {
+    "code": "CH",
+    "lat": 47,
+    "long": 8
+  },
+  {
+    "code": "SY",
+    "lat": 35,
+    "long": 38
+  },
+  {
+    "code": "TW",
+    "lat": 23.5,
+    "long": 121
+  },
+  {
+    "code": "TW",
+    "lat": 23.5,
+    "long": 121
+  },
+  {
+    "code": "TJ",
+    "lat": 39,
+    "long": 71
+  },
+  {
+    "code": "TZ",
+    "lat": -6,
+    "long": 35
+  },
+  {
+    "code": "TH",
+    "lat": 15,
+    "long": 100
+  },
+  {
+    "code": "TL",
+    "lat": -8.55,
+    "long": 125.5167
+  },
+  {
+    "code": "TG",
+    "lat": 8,
+    "long": 1.1667
+  },
+  {
+    "code": "TK",
+    "lat": -9,
+    "long": -172
+  },
+  {
+    "code": "TO",
+    "lat": -20,
+    "long": -175
+  },
+  {
+    "code": "TT",
+    "lat": 11,
+    "long": -61
+  },
+  {
+    "code": "TN",
+    "lat": 34,
+    "long": 9
+  },
+  {
+    "code": "TR",
+    "lat": 39,
+    "long": 35
+  },
+  {
+    "code": "TM",
+    "lat": 40,
+    "long": 60
+  },
+  {
+    "code": "TC",
+    "lat": 21.75,
+    "long": -71.5833
+  },
+  {
+    "code": "TV",
+    "lat": -8,
+    "long": 178
+  },
+  {
+    "code": "UG",
+    "lat": 1,
+    "long": 32
+  },
+  {
+    "code": "UA",
+    "lat": 49,
+    "long": 32
+  },
+  {
+    "code": "AE",
+    "lat": 24,
+    "long": 54
+  },
+  {
+    "code": "GB",
+    "lat": 54,
+    "long": -2
+  },
+  {
+    "code": "US",
+    "lat": 38,
+    "long": -97
+  },
+  {
+    "code": "UM",
+    "lat": 19.2833,
+    "long": 166.6
+  },
+  {
+    "code": "UY",
+    "lat": -33,
+    "long": -56
+  },
+  {
+    "code": "UZ",
+    "lat": 41,
+    "long": 64
+  },
+  {
+    "code": "VU",
+    "lat": -16,
+    "long": 167
+  },
+  {
+    "code": "VE",
+    "lat": 8,
+    "long": -66
+  },
+  {
+    "code": "VE",
+    "lat": 8,
+    "long": -66
+  },
+  {
+    "code": "VN",
+    "lat": 16,
+    "long": 106
+  },
+  {
+    "code": "VN",
+    "lat": 16,
+    "long": 106
+  },
+  {
+    "code": "VG",
+    "lat": 18.5,
+    "long": -64.5
+  },
+  {
+    "code": "VI",
+    "lat": 18.3333,
+    "long": -64.8333
+  },
+  {
+    "code": "WF",
+    "lat": -13.3,
+    "long": -176.2
+  },
+  {
+    "code": "EH",
+    "lat": 24.5,
+    "long": -13
+  },
+  {
+    "code": "YE",
+    "lat": 15,
+    "long": 48
+  },
+  {
+    "code": "ZM",
+    "lat": -15,
+    "long": 30
+  },
+  {
+    "code": "ZW",
+    "lat": -20,
+    "long": 30
+  }
+]

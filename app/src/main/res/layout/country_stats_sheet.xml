@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_accent"
+        android:paddingStart="@dimen/widget_padding"
+        android:paddingEnd="@dimen/widget_padding">
+
+        <ImageView
+            android:id="@+id/image_flag"
+            android:layout_width="64dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_country_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/widget_padding"
+            android:textAppearance="@style/TextAppearance.Large"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/button_close"
+            app:layout_constraintStart_toEndOf="@id/image_flag"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Nigeria" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/button_close"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:theme="@style/AppTheme.ControlHighlight"
+            android:tint="@android:color/white"
+            app:backgroundTint="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_close" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/list_item_padding_horizontal"
+        android:layout_marginTop="@dimen/frame_padding_vertical"
+        android:layout_marginEnd="@dimen/list_item_padding_horizontal"
+        android:text="@string/label_last_updated"
+        android:textAppearance="@style/TextAppearance.Subtitle.Small" />
+
+    <TextView
+        android:id="@+id/text_last_updated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/list_item_padding_horizontal"
+        android:layout_marginEnd="@dimen/list_item_padding_horizontal"
+        android:textAppearance="@style/TextAppearance.Body"
+        tools:text="May, 17 2020, 18:59, UTC" />
+
+    <com.aceinteract.topcoder.covidstats.view.PieChartView
+        android:id="@+id/pie_general_stats"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pie_chart_size_small"
+        android:layout_margin="@dimen/list_item_spacing"
+        app:strokeSize="24dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingStart="@dimen/frame_padding_horizontal"
+        android:paddingTop="@dimen/list_item_padding_vertical"
+        android:paddingEnd="@dimen/frame_padding_horizontal"
+        android:paddingBottom="@dimen/list_item_padding_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_total_cases"
+            android:layout_width="36dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_clipboard_list"
+            app:tint="@color/color_accent" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_total_cases"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_total_cases"
+                android:textAppearance="@style/TextAppearance.Subtitle.Small" />
+
+            <TextView
+                android:id="@+id/text_total_cases"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Body.Highlight"
+                android:textColor="@color/color_accent"
+                tools:text="1,263,697" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/list_item_spacing_small"
+        android:background="@color/color_dark_translucent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingStart="@dimen/frame_padding_horizontal"
+        android:paddingTop="@dimen/list_item_padding_vertical"
+        android:paddingEnd="@dimen/frame_padding_horizontal"
+        android:paddingBottom="@dimen/list_item_padding_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_infected"
+            android:layout_width="36dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_biohazard"
+            app:tint="@color/color_warning" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_infected"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_infected"
+                android:textAppearance="@style/TextAppearance.Subtitle.Small" />
+
+            <TextView
+                android:id="@+id/text_infected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Body.Highlight"
+                android:textColor="@color/color_warning"
+                tools:text="975,775" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/list_item_spacing_small"
+        android:background="@color/color_dark_translucent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingStart="@dimen/frame_padding_horizontal"
+        android:paddingTop="@dimen/list_item_padding_vertical"
+        android:paddingEnd="@dimen/frame_padding_horizontal"
+        android:paddingBottom="@dimen/list_item_padding_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_recovered"
+            android:layout_width="36dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_heartbeat"
+            app:tint="@color/color_good" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_recovered"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_recovered"
+                android:textAppearance="@style/TextAppearance.Subtitle.Small" />
+
+            <TextView
+                android:id="@+id/text_recovered"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Body.Highlight"
+                android:textColor="@color/color_good"
+                tools:text="213,109" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/list_item_spacing_small"
+        android:background="@color/color_dark_translucent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingStart="@dimen/frame_padding_horizontal"
+        android:paddingTop="@dimen/list_item_padding_vertical"
+        android:paddingEnd="@dimen/frame_padding_horizontal"
+        android:paddingBottom="@dimen/list_item_padding_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_deaths"
+            android:layout_width="36dp"
+            android:layout_height="0dp"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_skull_crossbones"
+            app:tint="@color/color_danger" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_deaths"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_deaths"
+                android:textAppearance="@style/TextAppearance.Subtitle.Small" />
+
+            <TextView
+                android:id="@+id/text_deaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.Body.Highlight"
+                android:textColor="@color/color_danger"
+                tools:text="74,813" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

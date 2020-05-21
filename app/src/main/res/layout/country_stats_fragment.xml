@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.countrystats.CountryStatsFragment">
+
+    <FrameLayout
+        android:id="@+id/frame_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/toolbar_card"
+            style="@style/CardView.FloatingEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_search_origin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:drawableStart="@drawable/ic_search"
+                android:drawablePadding="@dimen/widget_drawable_padding"
+                android:hint="@string/hint_search_country"
+                android:inputType="text"
+                android:padding="@dimen/widget_padding"
+                android:textSize="@dimen/floating_edit_text_title_size" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_country_stats"
+            android:clipToPadding="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/list_item_padding_horizontal"
+            android:paddingTop="@dimen/floating_edit_text_space"
+            android:paddingEnd="@dimen/list_item_padding_horizontal"
+            tools:listitem="@layout/country_stats_list_item" />
+
+        <LinearLayout
+            android:id="@+id/layout_loader"
+            android:gravity="center"
+            android:padding="@dimen/loader_padding"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text_progress_status"
+                android:layout_marginBottom="@dimen/list_item_spacing"
+                android:text="@string/status_fetching_region_stats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ProgressBar
+                android:id="@+id/progress_loader"
+                android:indeterminate="true"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_refresh_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/color_accent"
+        app:srcCompat="@drawable/ic_refresh"
+        app:tint="@android:color/white" />
+
+
+</FrameLayout>

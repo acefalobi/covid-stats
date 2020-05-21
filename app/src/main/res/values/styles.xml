@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- App Themes -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/color_accent</item>
+        <item name="colorPrimaryDark">@color/color_accent</item>
+        <item name="colorAccent">@color/color_primary</item>
+        <item name="colorControlHighlight">@color/color_accent_ripple</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents" />
+
+    <!-- Control Themes -->
+    <style name="AppTheme.ControlHighlight">
+        <item name="colorControlHighlight">@color/color_dark_ripple</item>
+    </style>
+
+    <style name="AppTheme.ControlHighlight.Dark">
+        <item name="colorControlHighlight">@color/color_light_ripple</item>
+        <item name="android:textColorHighlight">@android:color/white</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="CardView.Default" parent="CardView">
+        <item name="cardElevation">@dimen/card_elevation_medium</item>
+        <item name="cardCornerRadius">@dimen/card_radius_default</item>
+    </style>
+
+    <style name="CardView.FloatingEditText" parent="CardView">
+        <item name="cardElevation">@dimen/card_elevation_medium</item>
+        <item name="cardCornerRadius">@dimen/card_radius_default</item>
+        <item name="android:layout_margin">@dimen/floating_edit_text_margin</item>
+    </style>
+
+    <!-- BottomShet Styles -->
+    <style name="BottomSheet" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_bottom_sheet</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+
+    <!-- Text Styles -->
+    <style name="TextAppearance" />
+
+    <style name="TextAppearance.Title" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="TextAppearance.Body" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="TextAppearance.Body.Highlight" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle" parent="TextAppearance.AppCompat.Medium" />
+
+    <style name="TextAppearance.Subtitle.Small" parent="TextAppearance.AppCompat.Small" />
+
+    <style name="TextAppearance.Large" parent="TextAppearance.AppCompat.Large" />
+
+    <style name="TextAppearance.Large.Highlight" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+</resources>
