@@ -2,6 +2,9 @@
 
 #### Android app that let's you find and schedule flights across countries.
 
+### Demo
+https://drive.google.com/file/d/1NKPYDQqa08eT7Tly9CrsqIaSyQ840bOJ/view?usp=sharing
+
 ### Used libraries and technologies
 **Kotlin** - Primary programming language.</br>
 **MVVM** - Structured Model-View-ViewModel architecture.</br>
