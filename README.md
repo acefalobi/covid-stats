@@ -1,6 +1,6 @@
-# Flight Scheduler
+# Covid Stats
 
-#### Android app that let's you find and schedule flights across countries.
+#### Android app that let's you see covid-19 stats for all regions.
 
 ### Demo
 https://drive.google.com/file/d/1NKPYDQqa08eT7Tly9CrsqIaSyQ840bOJ/view?usp=sharing
